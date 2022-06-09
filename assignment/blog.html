@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,46 +8,58 @@
     <title>Blog</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="container max-w-5xl mx-auto px-5">
 
+<body>
+    <div class="container max-w-4xl mx-auto px-5">
+        <div class="flex justify-end pt-3">
+            <button id="button" class="md:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
         <div class="py-5">
-            <ul class="flex justify-end space-x-7">
+            <ul id="menu" class="hidden md:flex md:justify-end md:space-x-7">
                 <li class="font-bold text-xl hover:text-red-500"><a href="">Blog</a></li>
                 <li class="font-bold text-xl hover:text-red-500"><a href="">Works</a></li>
                 <li class="font-bold text-xl hover:text-red-500"><a href="">Contact</a></li>
             </ul>
         </div>
-        <h1 class="text-5xl font-bold py-10">Blog</h1>
-        <div class="max-w-[682px]">
-            <h2 class="text-3xl font-bold py-5">UI Interactions of the week</h2>
-            <span class="text-xl pr-5">12 Feb 2019</span> | <span class="text-xl text-[#8695A4] pl-5">Express, Handlebars</span>
-            <p class="py-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
-                Velit officia consequat duis enim velit mollit. 
+        <h1 class="text-3xl py-5 md:text-5xl font-bold md:py-10">Blog</h1>
+        <div class="md:max-w-[682px]">
+            <h2 class="text-[26px] md:text-3xl font-bold py-5">UI Interactions of the week</h2>
+            <span class="text-xl pr-5 border-r border-r-black">12 Feb 2019</span> <span class="text-xl text-[#8695A4] pl-5">Express,
+                Handlebars</span>
+            <p class="py-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+        <hr>
+        <div class="md:max-w-[682px]">
+            <h2 class="text-[26px] md:text-3xl font-bold py-5">UI Interactions of the week</h2>
+            <span class="text-xl pr-5 border-r border-r-black">12 Feb 2019</span> <span class="text-xl text-[#8695A4] pl-5">Express,
+                Handlebars</span>
+            <p class="py-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+        <hr>
+        <div class="md:max-w-[682px]">
+            <h2 class="text-[26px] md:text-3xl font-bold py-5">UI Interactions of the week</h2>
+            <span class="text-xl pr-5 border-r border-r-black">12 Feb 2019</span> <span class="text-xl text-[#8695A4] pl-5">Express,
+                Handlebars</span>
+            <p class="py-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.</p>
         </div>
         <hr>
         <div class="max-w-[682px]">
-            <h2 class="text-3xl font-bold py-5">UI Interactions of the week</h2>
-            <span class="text-xl pr-5">12 Feb 2019</span> | <span class="text-xl text-[#8695A4] pl-5">Express, Handlebars</span>
-            <p class="py-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
-                Velit officia consequat duis enim velit mollit. 
-                Exercitation veniam consequat sunt nostrud amet.</p>
-        </div>
-        <hr>
-        <div class="max-w-[682px]">
-            <h2 class="text-3xl font-bold py-5">UI Interactions of the week</h2>
-            <span class="text-xl pr-5">12 Feb 2019</span> | <span class="text-xl text-[#8695A4] pl-5">Express, Handlebars</span>
-            <p class="py-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
-                Velit officia consequat duis enim velit mollit. 
-                Exercitation veniam consequat sunt nostrud amet.</p>
-        </div>
-        <hr>
-        <div class="max-w-[682px]">
-            <h2 class="text-3xl font-bold py-5">UI Interactions of the week</h2>
-            <span class="text-xl pr-5">12 Feb 2019</span> | <span class="text-xl text-[#8695A4] pl-5">Express, Handlebars</span>
-            <p class="py-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
-                Velit officia consequat duis enim velit mollit. 
+            <h2 class="text-[26px] md:text-3xl font-bold py-5">UI Interactions of the week</h2>
+            <span class="text-xl pr-5 border-r border-r-black">12 Feb 2019</span> <span class="text-xl text-[#8695A4] pl-5">Express,
+                Handlebars</span>
+            <p class="py-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.</p>
         </div>
         <hr>
@@ -62,8 +75,16 @@
                     class="w-7 h-7">
             </div>
             <div class="text-sm pb-5">
-                <span >Copyright ©2020 All rights reserved </span>
+                <span>Copyright ©2020 All rights reserved </span>
             </div>
-    </div>
+        </div>
+        <script>
+            const menu = document.getElementById("menu");
+            const button = document.getElementById("button");
+            button.addEventListener("click", function(){
+                menu.classList.toggle("hidden")
+            })
+        </script>
 </body>
+
 </html>
